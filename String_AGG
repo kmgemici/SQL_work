@@ -1,0 +1,5 @@
+SELECT   
+  ID
+  , STRING_AGG(Data, ', ') AS DataSet
+FROM TableName
+GROUP BY ID;
